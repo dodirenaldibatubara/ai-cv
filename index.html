@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer & UI/UX Designer</title>
+    <meta name="description" content="Portfolio of a Senior Creative Developer specialized in high-performance web experiences and award-winning aesthetics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Outfit:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- GSAP for Motion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <div class="noise"></div>
+
+    <nav class="navbar">
+        <div class="nav-logo">PORTFOLIO_V1</div>
+        <div class="nav-links">
+            <a href="#projects" class="nav-item">PROJECTS</a>
+            <a href="#about" class="nav-item">ABOUT</a>
+            <a href="#contact" class="nav-item">CONTACT</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-parallax-bg">CREATIVE</div>
+            <div class="container">
+                <h1 class="hero-title">
+                    <span class="reveal-text">CRAFTING</span><br>
+                    <span class="reveal-text accent">STUNNING</span><br>
+                    <span class="reveal-text">EXPERIENCES</span>
+                </h1>
+                <p class="hero-sub">Frontend Engineer & UI/UX Designer specialized in modern ecosystems.</p>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats" id="about">
+            <div class="container bento-grid">
+                <div class="bento-item stat-card" data-speed="1.1">
+                    <span class="stat-value">1.2k+</span>
+                    <span class="stat-label">PRs MERGED</span>
+                </div>
+                <div class="bento-item stat-card" data-speed="1.2">
+                    <span class="stat-value">98+</span>
+                    <span class="stat-label">LIGHTHOUSE</span>
+                </div>
+                <div class="bento-item stat-card" data-speed="1.15">
+                    <span class="stat-value">100</span>
+                    <span class="stat-label">ACCESSIBILITY</span>
+                </div>
+                <div class="bento-item bio-card">
+                    <h2>ABOUT ME</h2>
+                    <p>A Frontend Engineer specializing in modern JavaScript/TypeScript ecosystems. Deeply focused on high-performance web applications and intuitive user interfaces.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-title">SELECTED WORKS</div>
+            
+            <div class="project-item">
+                <div class="project-info">
+                    <span class="project-num">01</span>
+                    <h3 class="project-name">NEXADASH</h3>
+                    <p class="project-desc">SaaS Dashboard for real-time business monitoring.</p>
+                    <div class="project-tags">VUE 3 / NUXT / GSAP</div>
+                </div>
+                <div class="project-visual">
+                    <div class="visual-placeholder"></div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <span class="project-num">02</span>
+                    <h3 class="project-name">PURECOMMERCE</h3>
+                    <h3 class="project-name">UI</h3>
+                    <p class="project-desc">Headless storefront focused on ultra-fast mobile shopping.</p>
+                    <div class="project-tags">TAILWIND / NEXT.JS / SHOPIFY</div>
+                </div>
+                <div class="project-visual">
+                    <div class="visual-placeholder"></div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <span class="project-num">03</span>
+                    <h3 class="project-name">PIXELFLOW</h3>
+                    <p class="project-desc">Centralized UI library and design tokens system.</p>
+                    <div class="project-tags">TYPESCRIPT / STORYBOOK / SCSS</div>
+                </div>
+                <div class="project-visual">
+                    <div class="visual-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Contact -->
+        <footer class="contact" id="contact">
+            <div class="container">
+                <h2 class="footer-title">LET'S CONNECT</h2>
+                <div class="contact-links">
+                    <a href="#" class="contact-link">GITHUB</a>
+                    <a href="#" class="contact-link">LINKEDIN</a>
+                    <a href="#" class="contact-link">EMAIL</a>
+                </div>
+                <div class="footer-bottom">
+                    <span>© 2024 PORTFOLIO</span>
+                    <span>BUILT WITH PASSION</span>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
